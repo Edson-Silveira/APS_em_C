@@ -1,1 +1,4 @@
-instrucões
+Atividade Realizada Na cadeira de Lógica de Programção.
+
+Criando um programa que lê a temperatura anual, passando a sua maior e menor temperatura
+Dias que a temperatura passou 30 graus, média anual, entre outros
