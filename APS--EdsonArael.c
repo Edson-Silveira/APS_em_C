@@ -20,9 +20,6 @@ int main(){
 		{
 			chuvoso++;
 		}
-	}
-	for(cont = 0;cont < 5;cont++)
-	{
 		if(menor> temp[cont])
 		{
 			menor = temp[cont];
@@ -34,8 +31,8 @@ int main(){
 	}
 	media = soma/5;
 	for(cont = 0;cont < 5;cont++)
-	{
-		if(media <temp[cont])
+	{	
+	if(media <temp[cont])
 		{
 			diasMedia++;
 		}
@@ -43,7 +40,9 @@ int main(){
 		{
 			maiorQ++;
 		}
+	
 	}
+
 	printf("\nA Temperatura maior é :%d",maior);
 	printf("\nA Temperatura menor é :%d",menor);
 	printf("\nA média anual é : %.1f",media);
